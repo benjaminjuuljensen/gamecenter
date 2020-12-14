@@ -1,0 +1,288 @@
+//index.html
+
+.index {
+    background-color: $primary-color;
+    background-image: url(images/tarzan.png);
+    background-repeat: $no-repeat;
+    background-position: right;
+}
+.index .bg-light {
+    background-color: $primary-color;
+}
+.index p {
+    color: $secondary-color;
+    font-family: $secondary-font;
+}
+.index h2 {
+    color: $secondary-color;
+    font-family: $secondary-font;
+}
+
+.index .btn-primary {
+    color: $primary-color;
+    font-family: $secondary-font;
+    border: $none;
+    display: inline-block;
+    background-color: $primary-color;
+    padding: 10px 100px;
+}
+
+//dblogin2.php
+
+.new-account {
+    background-color: $primary-color;
+    background-image: url(images/tarzan.png);
+    background-repeat: $no-repeat;
+    background-position: right;
+}
+.new-account .bg-light {
+    background-color: $primary-color;
+}
+.new-account p {
+    font-family: $secondary-font;
+}
+.new-account h2 {
+    font-family: $secondary-font;
+}
+.new-account input{
+    color: $secondary-color;
+    background-color: $none;
+    padding: 10px 100px;
+    border: $none;
+}
+.new-account .submit {
+    color: $primary-color;
+    font-family: $secondary-font;
+    padding: 10px 100px;
+    background-image: $fourth-color; 
+    border-radius: 5px;
+}
+
+//dblogin3.php
+
+.login {
+    background-color: $primary-color;
+    background-image: url(images/tarzan.png);
+    background-repeat: $no-repeat;
+    background-position: right;
+}
+.login .bg-light {
+    background-color: $primary-color;
+}
+.login p {
+    color: $secondary-color;
+    font-family: $secondary-font;
+}
+.login h2 {
+    color: $secondary-color;
+    font-family: $secondary-font;
+}
+.login input {
+    color: $secondary-color;
+    background-color: $none;
+    padding: 10px 100px;
+    border: $none;
+}
+.login .submit {
+    color: $primary-color;
+    font-family: $secondary-font;
+    padding: 10px 100px;
+    background-image: $fourth-color; 
+    border-radius: 5px;
+}
+
+//navbar
+
+.bg-light {
+    background-color: $primary-color;
+}
+.form-inline .form-control {
+    border: $none;
+}
+.pagination .page-item .page-link {
+    color: $primary-color;
+    background-image: $fourth-color;
+    font-family: $secondary-font;
+}
+//carousel
+
+.carousel-item {
+    width: 100%;
+    height: 400px;
+}
+.carousel-item img {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+//button
+
+.btn-primary {
+    color: $primary-color;
+    background-image: $fourth-color;
+    font-family: $secondary-font;
+    border: $none;
+
+}
+
+//footer
+
+.page-footer {
+    color: $secondary-color;
+    background-color: $primary-color;
+    width: 100%;
+    position: absolute;
+    margin-top: 40px;
+}
+.page-footer .footer-copyright {
+    font-size: 12px;
+}
+.page-footer .form-inline .form-control {
+    border-radius: 0px;
+}
+.page-footer .list-group-item {
+    border: $none;
+}
+.page-footer .container-fluid .row .col-md-4 .text-uppercase {
+    font-family: $secondary-font;
+}
+
+//menu.php
+
+.menu {
+    background-color: $third-color;
+}
+.menu .text-center .card-title {
+    color: $secondary-color;
+    font-family: $secondary-font;
+}
+.menu .form-row {
+    margin: 2%;
+}
+.menu .form-row .form-group label {
+    font-family: $secondary-font;
+}
+
+.menu .btn-outline-success {
+    color: $primary-color;
+    background-image: $fourth-color;
+    border: $none;
+    padding: 10px 130px;
+    font-weight: bold;
+}
+.menu .btn-outline-success  .fa-search {
+    color: $primary-color;
+}
+.menu .card-deck {
+    margin: 2%;
+}
+.menu .card-deck .card .card-body {
+    background-size: 80px;
+    background-repeat: $no-repeat;
+    background-position: right;
+}
+.menu .card-deck .card .card-body .card-title {
+    font-family: $secondary-font;
+}
+
+//category.php
+
+.category {
+    background-color: $third-color;
+}
+.category .text-center .card-title {
+    color: $secondary-color;
+    font-family: $secondary-font;
+}
+.category .form-row {
+    margin: 2%;
+}
+.category .form-row .form-group label {
+    font-family: $secondary-font;
+}
+.category .btn-outline-success {
+    color: $primary-color;
+    background-image: $fourth-color;
+    border: $none;
+    padding: 10px 130px;
+    font-weight: bold;
+}
+.category .btn-outline-success  .fa-search {
+    color: $primary-color;
+}
+.category .card-deck {
+    margin: 2%;
+}
+.category .card-deck .card .card-body {
+    background-size: cover;
+    background-repeat: $no-repeat;
+    background-position: right;
+}
+.category .card-deck .card .card-body .card-title {
+    font-family: $secondary-font;
+}
+
+//levels.php
+
+.levels {
+    background-color: $third-color;
+}
+.levels .text-center .card-body {
+    background-color: $primary-color;
+}
+.levels .text-center .card-body .card-title {
+    color: $secondary-color;
+    font-family: $secondary-font;
+}
+.levels .card {
+    background-color: transparent;
+    border: $none;
+}
+.levels .card p {
+    font-family: $secondary-font;
+}
+.levels .list-group-horizontal .list-group-item {
+    background-color: transparent;
+    border: $none;
+}
+.levels .col .card-body {
+    background-size: cover;
+}
+//game.php
+
+.game { 
+    background-color: $third-color;
+}
+.game .header {
+    background-repeat: $no-repeat;
+    background-size: cover;
+    max-width: 72%;
+    height: auto;
+}
+.game .header .list-group-horizontal .list-group-item {
+    background-color: $fifth-color;
+    font-family: $secondary-font;
+    border: $none;
+    align-items: center;
+}
+.game .header .list-group-horizontal .list-group-item input {
+    border: $none;
+    background-color: $fifth-color;
+}
+.game #canvas {
+    background-image: url(images/jungle-1.png);
+    background-size: cover;
+    height: auto;
+}
+.game .footer {
+    background-repeat: $no-repeat;
+    background-size: cover;
+    max-width: 72%;
+    height: auto;
+}
+.game .footer button {
+    background-color: transparent;
+    border: $none;
+}
+
+

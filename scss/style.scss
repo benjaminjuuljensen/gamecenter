@@ -1,0 +1,28 @@
+// Required
+@import "../bootstrap-4.5.2 2/scss/functions";
+@import "../bootstrap-4.5.2 2/scss/variables";
+@import "../bootstrap-4.5.2 2/scss/mixins";
+
+// Optional
+@import "../bootstrap-4.5.2 2/scss/reboot";
+@import "../bootstrap-4.5.2 2/scss/type";
+@import "../bootstrap-4.5.2 2/scss/images";
+@import "../bootstrap-4.5.2 2/scss/grid";
+@import "../bootstrap-4.5.2 2/scss/jumbotron";
+@import "../bootstrap-4.5.2 2/scss/buttons";
+@import "../bootstrap-4.5.2 2/scss/navbar";
+@import "../bootstrap-4.5.2 2/scss/card";
+@import "../bootstrap-4.5.2 2/scss/list-group";
+@import "../bootstrap-4.5.2 2/scss/progress";
+@import "../bootstrap-4.5.2 2/scss/breadcrumb";
+@import "../bootstrap-4.5.2 2/scss/forms";
+@import "../bootstrap-4.5.2 2/scss/Pagination";
+@import "../bootstrap-4.5.2 2/scss/modal";
+@import "../bootstrap-4.5.2 2/scss/toasts";
+@import "../bootstrap-4.5.2 2/scss/carousel";
+
+
+// My styles
+@import "variables";
+@import "mixins";
+@import "main";
