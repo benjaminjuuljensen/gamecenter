@@ -57,17 +57,16 @@
 
 <?php 
     // Registration form
-    if(isset($_POST['submit']))
+    if(isset($_POST['submit'])) //$_POST anvedes til at samle værdier fra en form med method=post
     {
-        require_once('dblogin1.php');
-        // remove special characters
-        // adding basic security (mysqli_real_escape_string) to avoid SQL injection (' or 0=0 #)
-        $username = $conn->real_escape_string($_POST['username']);
+        require_once('dblogin1.php'); //require_once (function) checker om den er allerede er inkluderet
+      
+        $username = $conn->real_escape_string($_POST['username']); //real_escape_string (function) fjerner visse karakterer så den kan kommunikere med SQL
         // adding basic password hash encryption
         $password = sha1($_POST['password']);
         $name = $conn->real_escape_string($_POST['name']);
         // check if username exist, else insert
-        $check = $conn->query("SELECT username from user WHERE username = '$username' LIMIT 1");
+        $check = $conn->query("SELECT username from user WHERE username = '$username' LIMIT 1"); //LIMIT er i stand til at hente tabeller i en database
         if ($check->num_rows == 1) echo "<p>Username already exists!</p>";
         else 
         {
