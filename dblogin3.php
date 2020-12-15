@@ -18,7 +18,7 @@
         else 
         {
             // start a PHP session
-            session_start();
+            session_start(); //i en session åbner du, gemmer, og lukker. computeren ved hvem du er
             $_SESSION['logged_in'] = true;
             //redirect and stop present code
             header("Location: menu.php"); 
