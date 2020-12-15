@@ -1,6 +1,7 @@
 <?php
     // Open database
-    $conn = new mysqli('localhost:8889', 'root', 'root', 'GameCenter'); //forbinder til database
+     $conn = new mysqli("benjaminjuuljensen.dk.mysql:3306", 'benjaminjuuljensen_dkgamecenter', 'benji3400', 'benjaminjuuljensen_dkgamecenter');
+
 
     if($conn->connect_error)
     {
